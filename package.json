@@ -1,0 +1,32 @@
+{
+  "name": "ajaxrequest",
+  "version": "0.0.1",
+  "description": "A minimalist AJAX request module.",
+  "main": "ajaxrequest.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sanderblue/ajaxrequest.git"
+  },
+  "keywords": [
+    "ajax",
+    "http",
+    "httprequest",
+    "http",
+    "request",
+    "xmlhttprequest",
+    "xml"
+  ],
+  "author": "Sander Blue",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/sanderblue/ajaxrequest/issues"
+  },
+  "homepage": "https://github.com/sanderblue/ajaxrequest#readme",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-umd": "^0.2.0"
+  }
+}
