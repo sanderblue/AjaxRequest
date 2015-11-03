@@ -1,6 +1,6 @@
 # AjaxRequest
 
-Minimalist AJAX request module. This module is only compatible with browsers and Node versions that support ES6 classes and promises.
+Minimalist AJAX request module. This module is only compatible with browsers that support ES6 classes and promises.
 
 # Usage
 
