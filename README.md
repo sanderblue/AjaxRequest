@@ -1,6 +1,6 @@
 # AjaxRequest
 
-Minimalist AJAX request module. This module is only compatible with browsers that support ES6 classes and promises.
+Minimalist AJAX request module with zerp dependencies.
 
 # Usage
 
@@ -13,7 +13,17 @@ var AjaxRequest = require(['ajaxrequest']);
 var AjaxRequest = require('ajaxrequest');
 ```
 
-Use the module.
+Parameters.
+```
+var ajaxRequest = new AjaxRequest(
+    method,  // String - required [GET, POST]
+    url,     // String - required
+    async,   // Boolean - optional
+    callback // Function - optional
+);
+```
+
+Hypothetical usage example.
 ```javascript
 var ajaxRequest = new AjaxRequest(
   'GET',
