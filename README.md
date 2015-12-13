@@ -1,6 +1,6 @@
 # AjaxRequest
 
-Minimalist AJAX request module with zerp dependencies.
+Minimalist AJAX request module with zero dependencies.
 
 # Usage
 
